@@ -1,0 +1,6 @@
+*La carpeta de nombre BD contiene el diseño previo que hice de la base de datos, además del archivo sql con la base de datos exportada.
+*En la carpeta modelo existe un archico llamado coneccion que es el archivo donde se establece la concción a la BD
+*No utilicé ningún framework php para el desarrollo de la prueba; el apñlicativo si está hecho en php.
+* Modifiqué un poco el ejercicio al agregarle autenticación de usaurios; es decir, para poder crea, eliminar y editar registros es necesario autenticarse. De lo contrario solo podrán ver la información de la bd pero no manipular los datos.
+
+El usuario que utilzo para logueare es tamara@tamara.com y la clave es tamara, pero obviamente ustedes a través de la base de datos pueden agregar más usuarios.

@@ -1,0 +1,112 @@
+body, html, .body{
+	height: 100%;
+	background-color: #f5f5f5;
+}
+.row{
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.content-box{
+	margin-top: 30px;
+}
+.modal-footer, .modal-header{
+	background-color: #0461a9;
+}
+.modal-backdrop{
+	background-color: #73b5e6;
+}
+/*Table*/
+th{
+	background-color: #b3ddff;
+	border: 1px solid #499ff7 !important;
+	text-align: center;
+}
+td{
+	border: 1px solid #afd1f3 !important;
+	text-align: center;
+}
+th.blueT{
+	background-color: rgb(83, 161, 241) !important;
+	font-weight: bold !important;
+}
+.noti{
+	color: #2196f3;
+	font-weight: bold;
+}
+.header{
+	height: 200px;
+	background: rgba(3,169,244,1);
+	background: -moz-linear-gradient(45deg, rgb(4, 47, 80) 0%, rgb(0, 81, 145) 100%);
+	background: -webkit-linear-gradient(45deg, rgb(4, 47, 80) 0%, rgb(0, 81, 145) 100%);
+	background: -o-linear-gradient(45deg, rgb(4, 47, 80) 0%, rgb(0, 81, 145) 100%);
+	background: -ms-linear-gradient(45deg, rgb(4, 47, 80) 0%, rgb(0, 81, 145) 100%);
+	background: linear-gradient(45deg, rgb(4, 47, 80) 0%, rgb(0, 81, 145) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
+	color: white;
+	padding: 20px;
+}
+.header .line:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  background-color: #dadada;
+  width: 3px;
+  height: 150px;
+  right: 50%;
+  z-index: 1; }
+.title{
+	border: 1px solid white;
+	border-bottom: none;
+	height: 135px;
+	background-color: rgba(33, 150, 243, 0.14);
+}
+.title .SCP{
+	font-size: 65px;
+	font-weight: bold;
+}
+/* unvisited link and visited link */
+.link, .link:visited {
+    color: white;
+}/* selected link and mouse over link */
+.link:hover, .link:active{
+    color: #db2369;
+}
+.sub-title{
+	font-size: 12px;
+	background-color: black;
+	height: 25px;
+	padding: 2px;
+	border: 1px solid white;
+}
+.SignUp, .LogIn{
+	height: 200px;
+    padding: 50px;
+    z-index: 2;
+}
+.SignUp h2, .LogIn h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.LogIn{
+	background-color: #0a564f;
+}.SignUp{
+	background-color: #009688;
+}
+.text-movie{
+	color: #db2369;
+	font-weight: bold;
+}
+.Shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 775px){
+	.title .SCP{
+		font-size: 45px;
+	}
+}
+@media only screen and (max-width: 360px){
+	.title .SCP{
+		font-size: 40px;
+	}
+}
